@@ -1,31 +1,25 @@
 <template>
-  <div class="flex flex-col min-h-screen">
-    <!-- Основной контент -->
-    <div class="flex-grow">
-      <GradientBackground />
-      <Topbar />
-      <NuxtPage />
-      <nav class="topbar w-full py-4 fixed top-0 z-50 flex items-center">
-        <div class="flex items-center ml-4">
-          <img src="/logo.svg" class="h-8 mobile-logo" />
-        </div>
-      </nav>
-    </div>
-
-    <!-- Нижняя часть страницы -->
-    <div class="flex justify-between items-end p-4">
-      <!-- Версия -->
-      <div class="SecVersion bg-slate-800 rounded-xl">
-        V. 2.0.0-β
+  <div>
+    <GradientBackground />
+    <Topbar />
+    <NuxtPage />
+    <nav class="topbar w-full py-4 fixed top-0 z-50 flex items-center">
+      <div class="flex items-center ml-4">
+        <img src="/public/logo.svg" class="h-8 mobile-logo" />
       </div>
-
-      <!-- Кнопка GitHub -->
+    </nav>
+    <section>
       <div>
-        <Button class="buttonGH font-medium" @click="github">
+        <Button class="absolute bottom-0 right-0 mb-4 mr-4 buttonGH font-medium" @click="github">
           <i class="mdi mdi-github"></i> Код на GitHub
         </Button>
       </div>
-    </div>
+      <div>
+        <section class="absolute bottom-0 left-0 mb-4 ml-4 SecVersion bg-slate-800 rounded-xl">
+          V. 2.0.0-β
+        </section>
+      </div>
+    </section>
   </div>
 </template>
 
