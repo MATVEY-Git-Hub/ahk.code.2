@@ -9,7 +9,7 @@
             </div>
         </nav>
       <!-- Кнопка GitHub -->
-      <div class="absolute bottom-0 right-0 mb-4 mr-4 z-10">
+      <div class="absolute bottom-0 right-0 mb-4 mr-4 z-11">
         <Button class="buttonGH font-medium" @click="github">
           <i class="mdi mdi-github"></i> Код на GitHub
         </Button>
