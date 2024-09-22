@@ -1,5 +1,11 @@
 <template>
   <div>
+    <UModal v-model="isOpen">
+      <div class="p-4">
+        <Placeholder class="h-48" />
+        Скоро тут будут расписаны обновления
+      </div>
+    </UModal>
     <GradientBackground />
     <Topbar />
     <NuxtPage />
@@ -15,7 +21,7 @@
         </Button>
       </div>
       <div>
-        <section class="absolute bottom-0 left-0 mb-4 ml-4 SecVersion bg-slate-800 rounded-xl">
+        <section class="absolute bottom-0 left-0 mb-4 ml-4 SecVersion bg-slate-800 rounded-xl" @click="isOpen = true">
           V. 2.0.0-β
         </section>
       </div>
@@ -26,6 +32,8 @@
 <script setup lang="ts">
 import GradientBackground from '~/components/GradientBackground.vue';
 import Topbar from '~/components/Topbar.vue';
+
+const isOpen = ref(false)
 
 function github() {
   window.open('https://github.com/MATVEY-Git-Hub/auto.prikaz.2', '_blank');
