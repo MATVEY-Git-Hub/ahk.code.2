@@ -12,7 +12,7 @@
             <NuxtLink class="nav-button" to="/contacts">Связь с разработчиком</NuxtLink>
           </div>
         </section>
-        <section class="bg-slate-800 rounded-xl">
+        <section class="bg-slate-800 rounded-xl mb-36 md:mb-24">
           <div class="p-6 md:p-12">
             <UAvatar size="3xl"
               src="https://sun9-44.userapi.com/s/v1/ig2/PEIRLOfpu4mIDZX1k0j0bBeg33GBjgu0QPpJFZpCmedIlEwJePiNJdwBN6gmQHfSbLAd4lOGhoQ8yplduQL9ITwI.jpg?quality=95&crop=270,0,958,958&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=fZ9mTdixvhvnlGeayet0KXC7DWcXch_5kLvO06XC9zw&cs=200x200"

@@ -12,7 +12,7 @@
                 <NuxtLink class="nav-button" to="/contacts">Связь с разработчиком</NuxtLink>
           </div>
         </section>
-          <section class="bg-slate-800 rounded-xl">
+          <section class="bg-slate-800 rounded-xl mb-36 md:mb-24">
             <div class="p-6 md:p-12">
               <h1 class="text-3xl font-bold break-words text-main">
                 Скоро
