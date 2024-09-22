@@ -8,14 +8,11 @@
                 <img src="/public/logo.svg" class="h-8 mobile-logo" />
             </div>
         </nav>
-      <!-- Кнопка GitHub -->
       <div class="absolute bottom-0 right-0 mb-4 mr-4">
         <Button class="buttonGH font-medium" @click="github">
           <i class="mdi mdi-github"></i> Код на GitHub
         </Button>
       </div>
-
-      <!-- Версия -->
       <div class="absolute bottom-0 left-0 mb-4 ml-4">
         <section class="SecVersion bg-slate-800 rounded-xl">
           V. 2.0.0-β
