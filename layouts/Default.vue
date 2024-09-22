@@ -1,11 +1,5 @@
 <template>
   <div>
-    <UModal v-model="isOpen">
-      <div class="p-4">
-        <Placeholder class="h-48" />
-        Скоро тут будут расписаны обновления
-      </div>
-    </UModal>
     <GradientBackground />
     <Topbar />
     <NuxtPage />
@@ -26,6 +20,16 @@
         </section>
       </div>
     </section>
+    <UModal v-model="isOpen">
+      <div class="p-4">
+        <Placeholder class="h-48" />
+        <ul>
+          <li class="mb-2"><b>● Версия 2.0.0-Beta</b></li>
+        </ul>
+        Возможны баги и недочёты!
+        Скоро здесь будут расписаны обновления.
+      </div>
+    </UModal>
   </div>
 </template>
 
